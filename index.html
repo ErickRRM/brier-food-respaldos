@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brier Food respaldos</title>
+  <meta name="description" content="Herramienta interna de Afedo's que guarda las copias de seguridad de su sistema en su propio Google Drive.">
+  <style>
+    :root { color-scheme: light dark; --texto: #1f2328; --tenue: #59636e; --fondo: #ffffff; --borde: #d1d9e0; --marca: #b4232a; }
+    @media (prefers-color-scheme: dark) { :root { --texto: #e6edf3; --tenue: #9198a1; --fondo: #0d1117; --borde: #3d444d; --marca: #ff7b72; } }
+    body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1rem 3rem; }
+    h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 .25rem; }
+    .sub { color: var(--tenue); margin: 0 0 2rem; }
+    h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+    a { color: var(--marca); }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--borde); color: var(--tenue); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Brier Food respaldos</h1>
+    <p class="sub">Copias de seguridad del sistema interno de Afedo's</p>
+
+    <p>
+      Brier Food es el sistema interno de pedidos e inventario de <strong>Afedo's</strong>, un negocio de comida rápida
+      en Toluca, Estado de México. «Brier Food respaldos» es la herramienta de ese sistema que, una vez por semana,
+      guarda una copia de seguridad de su base de datos en el <strong>Google Drive del propio negocio</strong>.
+    </p>
+
+    <h2>Qué hace</h2>
+    <ul>
+      <li>Sube los archivos de respaldo a una carpeta del Google Drive del negocio.</li>
+      <li>Borra de esa carpeta los respaldos que ella misma subió hace más de cuatro semanas.</li>
+      <li>Solo puede ver y modificar los archivos que ella misma crea: no tiene acceso al resto del Drive.</li>
+    </ul>
+
+    <h2>Quién la usa</h2>
+    <p>
+      Es una herramienta interna: solo la usa el negocio con su propia cuenta de Google. No está disponible para el
+      público ni para otras personas o empresas.
+    </p>
+
+    <h2>Más información</h2>
+    <p>
+      <a href="privacidad.html">Política de privacidad</a> ·
+      Contacto: <a href="mailto:afedosrest@gmail.com">afedosrest@gmail.com</a>
+    </p>
+
+    <footer>Afedo's · Brier Food</footer>
+  </main>
+</body>
+</html>
